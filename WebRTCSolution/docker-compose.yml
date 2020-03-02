@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webrtcdemo:
+    image: ${DOCKER_REGISTRY-}webrtcdemo
+    build:
+      context: .
+      dockerfile: WebRTCDemo/Dockerfile
