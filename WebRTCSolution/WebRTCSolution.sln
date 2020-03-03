@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCDemo", "WebRTCDemo\WebRTCDemo.csproj", "{4113285F-9583-4588-8F00-57FB8F24B4E5}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "WebRTCCommons", "WebRTCCommons\WebRTCCommons.csproj", "{AD94FB08-61AF-43EC-947E-18CCC67A78D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCCommons", "WebRTCCommons\WebRTCCommons.csproj", "{AD94FB08-61AF-43EC-947E-18CCC67A78D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
