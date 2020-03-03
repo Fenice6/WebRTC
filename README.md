@@ -16,5 +16,14 @@ Default configurations run software in local, but it's posible update them chang
 - [Program](https://github.com/Fenice6/WebRTC/blob/master/WebRTCSolution/WebRTCDemo/Program.cs) to expsose backend and do some tests.
 - [Startup](https://github.com/Fenice6/WebRTC/blob/master/WebRTCSolution/WebRTCDemo/Startup.cs) to allow different origins.
 
+## Docker
+It's possible use docker to containerize the solution. Is possible to use dockerfile directly but it's better utilize docker-compose.
+Use `docker-compose build` to build the image and then `docker-compose up` to run it, that's all.
+Default mapped ports are:
+- 8000 for HTTP
+- 4443 for HTTPS
+BUT for https is needed to reconfigure docker-compose with a valid certification authority. So during tests of this application with my client it's important pay attention to protocol and port configurations.
+
+
 ## Client
 You can find a client for this backend here [SignalRtcClient](https://github.com/Fenice6/SignalRtcClient).
